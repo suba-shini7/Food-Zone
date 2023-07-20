@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+
+}
+
+header{
+	/*background: blue;*/
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+.logo{
+	width: 200px;
+	height: 80px;
+	/*background: red;*/
+	display: flex;
+	align-items: center;
+}
+.logo1{
+	width: 120px;
+	height: 80px;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+	 font-size: 20px;
+	 margin-left: -15px;
+	 color: white;
+	 font-weight: bolder;
+
+}
+.navi{
+	/*background: green;*/
+	width: 80%;
+	height: 80px;
+	margin-left: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 30px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: orange;
+	font-weight: bolder;
+	}
+li:hover{
+	color:rgba(255,0,0,0.5);
+	
+}
+
+.order{
+	width: 20%;
+	height: 80px;
+	/*background: white;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 40px;
+
+}
+
+.or{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	border-radius: 20px 20px 20px 20px;
+	background: rgba(254,0,0,0.7);
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	margin-left:10px;
+	color: orange;
+	font-weight: bold;
+
+}
+body{
+	background:linear-gradient(rgba(0, 10, 60,0.5), rgba(0,91,99,0.5)), url(https://images.unsplash.com/photo-1598214886806-c87b84b7078b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1625&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fxied;
+	width: 100%;
+	height: 100vh;
+
+}
+.cont{
+	width: 100%;
+	height: 400px;
+	/*background: red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+flex-direction: column;
+
+}
+.top{
+	width: 60%;
+	height: 400px;
+margin-top: 100px;
+/*background: white;*/
+position: absolute;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	font-size: 60px;
+	color:orange;
+	text-align: center;
+	letter-spacing: 5px;
+
+}
+.bottom{
+	width: 60%;
+	height: 200px;
+	/*position: absolute;*/
+	/*background: green;*/
+}
+.bt{
+position: absolute;
+right: 150px;
+bottom: 0px;
+width: 170px;
+height: 40px;
+background: rgba(254,0,0,0.7);
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+color: orange;
+font-size: 20px;
+
+}
+.banner
+{
+	width: 80%;
+	height: 200px;
+	/*background: red;*/
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+.bn{
+	position: absolute;
+right: 50px;
+bottom: 0px;
+width: 200px;
+height: 200px;
+
+}
